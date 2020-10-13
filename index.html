@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker By NaNa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/logo.png" width="220px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Favrious</a></li>
+                        <li><a href="#">Content</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout<br> A New Style!</h1>
+                    <p>Carrying every brand name on the market.</p>
+                    <a href="" class="btn">Explore Now &#10140;</a>
+                </div>
+                <div class="col-2">
+                    <img src="image/welcome.png" alt="welcome">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products -->
+    <div class="small-container">
+        <h2 class="title"><a href="#">Feature Products</a></h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="image/categories/11.jpg">
+                <h4>Air Jordan Legacy </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>Quality -A 
+                    <br> Size : 40 41 42 43 44 45 46
+                    <br>ks-45,000</p>
+            </div>
+            <div class="col-4">
+                <img src="image/categories/22.jpg">
+                <h4>Converse Logotape</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+                <p>Quality -A 
+                    <br> Size :  36 37 38 39 40 41 42 43 44
+                    <br>ks-38,000</p>
+            </div>
+            <div class="col-4">
+                <img src="image/categories/33.jpg">
+                <h4>Air Jordan 5 Retro SE 'Oregon'</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+                <p>Quality -A 
+                    <br> Size : 40 41 42 43 44 45 46
+                    <br>ks-50,000</p>
+            </div>
+        </div><!-- close of row -->  
+    </div><!--close of small-container -->
+    <!-- brand -->
+    <div class="brand">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="image/categories/1.png">
+                </div>
+                <div class="col-5">
+                    <img src="image/categories/2.png">
+                </div>
+                <div class="col-5">
+                    <img src="image/categories/3.png">
+                </div>
+                <div class="col-5">
+                    <img src="image/categories/4.png">
+                </div>
+                <div class="col-5">
+                    <img src="image/categories/5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="image/logo.png">
+                    <p>Our Purpose Is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+                    <h2>Follow Us</h2>
+                    <a href="https://www.facebook.com/%F0%9D%93%A2%F0%9D%93%B7%F0%9D%93%AE%F0%9D%93%AA%F0%9D%93%B4%F0%9D%93%AE%F0%9D%93%BB-%F0%9D%93%91%F0%9D%94%82-%F0%9D%93%9D%F0%9D%93%AA%F0%9D%93%9D%F0%9D%93%AA-108311367718796"><i class="fa fa-facebook-square"></i></a>
+                    <i class="fa fa-instagram" aria-hidden="true"></i><br>
+                    <i class="fa fa-map-marker" aria-hidden="true">Lashio,North Shan State,Myanmar</i>
+                    <p class="copyright">&#169; 2020 </p>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <!-- Js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
